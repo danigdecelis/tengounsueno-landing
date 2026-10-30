@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tengo un Sueño · Planificación financiera con María José Parra</title>
+<meta name="description" content="Ordena, planifica e invierte tu dinero con un plan hecho a tu medida. Planificación financiera, coaching y formación con María José Parra, asesora certificada EFPA.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="https://tengounsueno.es/wp-content/uploads/2024/05/favicon-2-300x300.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#FFFDF9; --cream-2:#F8F4F0; --ink:#000; --text:#333; --dark:#3B3845;
+  --lilac:#8B90BE; --lilac-soft:#9FA5D5; --lilac-mist:#9FA5D552; --sky:#DEE8FF; --blue:#BADBF3;
+  --green:#E8F5C8; --green-pale:#F5FAE8; --lime:#E0FE9C; --teal:#3F6E79; --peach:#F8AD7C;
+  --serif:"Editorial Old","Instrument Serif",Georgia,serif;
+  --sans:"Public Sans",system-ui,sans-serif;
+  --r:22px; --wrap:1160px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--text);background:var(--cream);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+h1,h2,.serif{font-family:var(--serif);font-weight:400;color:var(--ink);letter-spacing:-.01em}
+h1 em,h2 em,.serif em{font-style:italic}
+h1{font-size:clamp(2.6rem,5.6vw,4.6rem);line-height:1.04}
+h2{font-size:clamp(2.1rem,4vw,3.3rem);line-height:1.08}
+h3{font-family:var(--sans);font-weight:500;font-size:1.3rem;color:var(--ink);line-height:1.3}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--teal)}
+.eyebrow::before{content:"";width:22px;height:1px;background:currentColor}
+.lead{font-size:1.18rem;font-weight:300;color:#222;max-width:40em}
+section{padding:110px 0}
+.center{text-align:center}
+.center .lead{margin-left:auto;margin-right:auto}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:17px 30px;border-radius:50px;font-family:var(--sans);font-weight:500;font-size:1.02rem;text-decoration:none;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer;border:0;line-height:1.2}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--dark);color:var(--cream);box-shadow:0 10px 28px -10px rgba(59,56,69,.6)}
+.btn-primary:hover{box-shadow:0 16px 34px -12px rgba(59,56,69,.7)}
+.btn-primary .arr{color:var(--lime)}
+.btn-soft{background:var(--green);color:var(--teal)}
+.btn-soft:hover{background:var(--lime)}
+.btn-ghost{background:transparent;color:var(--dark);box-shadow:inset 0 0 0 1px rgba(59,56,69,.35)}
+.btn-ghost:hover{box-shadow:inset 0 0 0 1px var(--dark)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.micro{font-size:.88rem;color:#555;margin-top:14px}
+
+/* Top bar + nav */
+.topbar{background:var(--lilac);color:#fff;text-align:center;font-size:.82rem;padding:8px 16px}
+.topbar a{color:#fff;text-decoration:none}
+.topbar strong{font-weight:600}
+.topbar u{text-underline-offset:3px}
+.nav{position:sticky;top:12px;z-index:50;margin:16px auto 0;max-width:calc(var(--wrap) - 48px);background:rgba(255,253,249,.92);backdrop-filter:blur(10px);border-radius:60px;padding:12px 14px 12px 30px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 6px 30px -16px rgba(59,56,69,.35)}
+.logo{font-family:var(--serif);font-size:1.6rem;color:var(--ink);text-decoration:none;line-height:1}
+.logo em{font-style:italic;font-weight:700}
+.nav-links{display:flex;gap:30px;font-size:.92rem}
+.nav-links a{text-decoration:none;color:#222}
+.nav-links a:hover{color:var(--teal)}
+.nav .btn{padding:12px 22px;font-size:.92rem}
+
+/* Hero */
+.hero{background:linear-gradient(115deg,var(--green-pale) 0%,var(--green) 30%,var(--blue) 72%,var(--lilac-soft) 100%);margin-top:-78px;padding:150px 0 110px;position:relative}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.hero h1{margin:22px 0 24px}
+.hero .lead{margin-bottom:34px}
+.trust{display:flex;align-items:center;gap:14px;margin-top:30px;flex-wrap:wrap;font-size:.92rem;color:#333}
+.trust img{height:18px;width:auto}
+.trust b{font-weight:600;color:var(--ink)}
+.trust .dot{width:4px;height:4px;border-radius:50%;background:#555}
+.hero-media{position:relative}
+.hero-media img.main{border-radius:var(--r);aspect-ratio:4/5;object-fit:cover;width:100%;box-shadow:0 30px 60px -30px rgba(59,56,69,.55)}
+.badge{position:absolute;background:var(--cream);border-radius:18px;padding:14px 18px;box-shadow:0 16px 40px -18px rgba(59,56,69,.5);font-size:.85rem;line-height:1.35}
+.badge b{font-family:var(--serif);font-size:1.9rem;font-weight:400;display:block;color:var(--ink);line-height:1}
+.badge.b1{left:-34px;bottom:46px}
+.badge.b2{right:-22px;top:40px;background:var(--dark);color:var(--cream)}
+.badge.b2 b{color:var(--lime)}
+
+/* Logos */
+.logos{padding:46px 0;background:var(--cream);border-bottom:1px solid #eee7df}
+.logos p{text-align:center;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#777;margin-bottom:22px}
+.logos-row{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:22px 54px}
+.logos-row img{height:34px;width:auto;filter:grayscale(1);opacity:.65;transition:.3s}
+.logos-row img:hover{filter:none;opacity:1}
+
+/* Problem */
+.problem{background:var(--cream)}
+.problem-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:start}
+.problem h2{margin:18px 0 22px}
+.quotes{display:grid;gap:14px}
+.quotes li{list-style:none;background:#fff;border:1px solid #efe9e2;border-radius:16px;padding:18px 22px 18px 58px;position:relative;font-size:1.04rem;color:#222}
+.quotes li::before{content:"“";position:absolute;left:20px;top:6px;font-family:var(--serif);font-size:3rem;color:var(--lilac);line-height:1}
+.callout{margin-top:34px;background:var(--dark);color:var(--cream);border-radius:var(--r);padding:30px 32px;display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center}
+.callout .num{font-family:var(--serif);font-size:3.6rem;color:var(--lime);line-height:1}
+.callout p{font-size:1rem;color:#e9e6f0}
+.turn{margin-top:30px;font-size:1.12rem;color:#222}
+.turn strong{font-weight:600}
+
+/* Method */
+.method{background:linear-gradient(180deg,var(--sky),var(--cream))}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px}
+.step{background:var(--cream);border-radius:var(--r);padding:36px 32px;position:relative;box-shadow:0 18px 40px -30px rgba(59,56,69,.5)}
+.step .n{font-family:var(--serif);font-size:4.2rem;line-height:1;color:var(--lilac);font-style:italic}
+.step h3{font-family:var(--serif);font-size:2rem;font-weight:400;margin:14px 0 10px}
+.step p{color:#444}
+.values{display:flex;justify-content:center;flex-wrap:wrap;gap:16px;margin-top:46px}
+.value{display:flex;align-items:center;gap:12px;background:#fff;border-radius:50px;padding:10px 20px 10px 12px;font-size:.92rem;color:#333}
+.value img{width:34px;height:34px}
+.value b{font-weight:600;color:var(--ink)}
+
+/* Offers */
+.offers h2{margin:16px 0 18px}
+.offer-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:24px;margin-top:56px}
+.offer{background:#fff;border:1px solid #efe9e2;border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.offer .img{aspect-ratio:16/9;overflow:hidden}
+.offer .img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.offer:hover .img img{transform:scale(1.04)}
+.offer .body{padding:30px 32px 34px;display:flex;flex-direction:column;flex:1}
+.offer .tag{align-self:flex-start;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:6px 12px;border-radius:30px;background:var(--green);color:var(--teal);margin-bottom:16px}
+.offer h3{font-family:var(--serif);font-weight:400;font-size:2.1rem;margin-bottom:10px}
+.offer .for{color:#444;margin-bottom:18px}
+.offer ul{list-style:none;display:grid;gap:9px;margin-bottom:26px}
+.offer li{padding-left:30px;position:relative;font-size:.98rem}
+.offer li::before{content:"";position:absolute;left:0;top:5px;width:18px;height:18px;border-radius:50%;background:var(--lime) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233F6E79' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12l4 4 8-8'/%3E%3C/svg%3E") center/12px no-repeat}
+.offer .btn{margin-top:auto;align-self:flex-start}
+.offer.featured{grid-row:span 2;background:var(--dark);border:0;color:#e9e6f0}
+.offer.featured h3,.offer.featured .for{color:var(--cream)}
+.offer.featured .img{aspect-ratio:5/4}
+.offer.featured .tag{background:var(--lime);color:var(--dark)}
+.offer.featured .btn-primary{background:var(--lime);color:var(--dark)}
+.offer.featured .btn-primary .arr{color:var(--dark)}
+.side-offers{display:grid;gap:24px}
+.side-offers .offer{flex-direction:row}
+.side-offers .offer .img{aspect-ratio:auto;width:38%;flex:none}
+.side-offers .offer .body{padding:26px 26px 28px}
+.side-offers .offer h3{font-size:1.7rem}
+.side-offers .offer .for{font-size:.96rem;margin-bottom:20px}
+.date{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--teal);font-size:.92rem;margin-bottom:18px}
+
+/* Testimonials */
+.testi{background:var(--green-pale)}
+.testi-head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap}
+.testi-grid{columns:3 300px;column-gap:22px;margin-top:50px}
+.card{break-inside:avoid;background:#fff;border-radius:var(--r);padding:28px 28px 26px;margin-bottom:22px;box-shadow:0 16px 36px -30px rgba(59,56,69,.6)}
+.card img.stars{height:16px;width:auto;margin-bottom:16px}
+.card blockquote{font-size:1rem;color:#333;font-style:italic;font-weight:300}
+.card blockquote strong{font-style:normal;font-weight:600;color:var(--ink);background:linear-gradient(transparent 62%,var(--lime) 62%)}
+.card .who{margin-top:18px;display:flex;align-items:center;gap:12px}
+.avatar{width:40px;height:40px;border-radius:50%;background:var(--sky);display:grid;place-items:center;font-family:var(--serif);font-size:1.1rem;color:var(--teal);flex:none}
+.card .who b{display:block;font-weight:600;color:var(--ink);font-size:.95rem}
+.card .who span{font-size:.84rem;color:#666}
+
+/* Stats */
+.stats{background:var(--dark);color:var(--cream);padding:80px 0}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.stats .n{font-family:var(--serif);font-size:clamp(3rem,5.5vw,4.6rem);line-height:1;color:var(--cream)}
+.stats .n span{color:var(--lime)}
+.stats p{margin-top:10px;color:#cfcbe0;font-size:.98rem}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:72px;align-items:center}
+.about-img{position:relative}
+.about-img img{border-radius:var(--r);aspect-ratio:4/5;object-fit:cover;width:100%}
+.about-img .sig{position:absolute;right:-26px;bottom:34px;background:var(--lime);color:var(--dark);border-radius:18px;padding:16px 20px;font-family:var(--serif);font-size:1.35rem;line-height:1.15;max-width:230px;box-shadow:0 16px 40px -20px rgba(59,56,69,.5)}
+.about h2{margin:16px 0 8px}
+.about .role{font-size:1.1rem;color:var(--teal);margin-bottom:24px}
+.creds{list-style:none;display:grid;gap:14px;margin:28px 0 34px}
+.creds li{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.creds .ic{width:44px;height:44px;border-radius:12px;background:var(--sky);display:grid;place-items:center;color:var(--teal)}
+.creds .ic svg{width:22px;height:22px}
+.creds b{color:var(--ink);font-weight:600}
+
+/* How to start */
+.start{background:linear-gradient(115deg,var(--green) 0%,var(--blue) 70%,var(--lilac-soft) 100%)}
+.start-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin:54px 0 46px;counter-reset:s}
+.start-card{background:rgba(255,253,249,.88);border-radius:var(--r);padding:30px 28px}
+.start-card .k{width:46px;height:46px;border-radius:50%;background:var(--dark);color:var(--lime);display:grid;place-items:center;font-family:var(--serif);font-size:1.5rem;margin-bottom:18px}
+.start-card h3{margin-bottom:8px}
+.start-card p{color:#444;font-size:.98rem}
+
+/* Lead magnet */
+.lm{padding:90px 0}
+.lm-box{background:var(--sky);border-radius:32px;display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:center;padding:50px 56px;position:relative;overflow:hidden}
+.lm-box img{width:100%;max-width:340px;margin:0 auto}
+.lm-box h2{font-size:clamp(1.9rem,3.2vw,2.7rem);margin:14px 0 14px}
+.lm-box p{color:#333;margin-bottom:26px}
+
+/* FAQ */
+.faq-wrap{max-width:820px;margin:50px auto 0}
+details{border-bottom:1px solid #e6dfd6;padding:24px 4px}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;font-size:1.14rem;font-weight:500;color:var(--ink)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--serif);font-size:2rem;line-height:.8;color:var(--lilac);transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:14px;color:#444;max-width:44em}
+
+/* Final CTA */
+.final{background:var(--dark);color:var(--cream);text-align:center;padding:120px 0}
+.final h2{color:var(--cream);font-size:clamp(2.4rem,5vw,4.2rem)}
+.final h2 em{color:var(--lime)}
+.final .lead{color:#d9d5e6;margin:22px auto 40px}
+.final .btn-row{justify-content:center}
+.final .btn-soft{background:var(--lime);color:var(--dark)}
+.final .btn-ghost{color:var(--cream);box-shadow:inset 0 0 0 1px rgba(255,253,249,.4)}
+.final .btn-ghost:hover{box-shadow:inset 0 0 0 1px var(--cream)}
+.final .micro{color:#bdb8cf}
+
+/* Footer */
+footer{background:#2f2d38;color:#bdb8cf;padding:60px 0 36px;font-size:.92rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+footer .logo{color:var(--cream);font-size:1.7rem}
+footer h4{color:var(--cream);font-weight:600;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px}
+footer ul{list-style:none;display:grid;gap:8px}
+footer a{text-decoration:none}
+footer a:hover{color:var(--lime)}
+footer .tag{margin-top:14px;max-width:26em}
+.copy{border-top:1px solid #45424f;margin-top:40px;padding-top:22px;font-size:.82rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+/* Floating WhatsApp */
+.wa-float{position:fixed;right:22px;bottom:22px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 12px 30px -10px rgba(0,0,0,.45);transition:transform .2s}
+.wa-float:hover{transform:scale(1.07)}
+.wa-float svg{width:30px;height:30px;fill:#fff}
+.wa-float .tip{position:absolute;right:72px;white-space:nowrap;background:var(--dark);color:var(--cream);font-size:.84rem;padding:8px 14px;border-radius:30px;opacity:0;transform:translateX(8px);transition:.25s;pointer-events:none}
+.wa-float:hover .tip{opacity:1;transform:none}
+
+/* Reveal */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+
+/* Responsive */
+@media (max-width:980px){
+  section{padding:80px 0}
+  .nav-links{display:none}
+  .hero{padding:130px 0 80px}
+  .hero-grid,.problem-grid,.about-grid,.lm-box{grid-template-columns:1fr;gap:44px}
+  .hero-media{max-width:460px;margin:0 auto;width:100%}
+  .steps,.start-grid{grid-template-columns:1fr}
+  .offer-grid{grid-template-columns:1fr}
+  .offer.featured{grid-row:auto}
+  .stats-grid{grid-template-columns:repeat(2,1fr);gap:40px 20px}
+  .foot-grid{grid-template-columns:1fr}
+  .lm-box{padding:40px 30px}
+  .about-img{max-width:440px;margin:0 auto;width:100%}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .wrap{padding:0 18px}
+  .nav{margin:12px 12px 0;padding:10px 10px 10px 20px}
+  .logo{font-size:1.35rem}
+  .nav .btn{padding:10px 16px;font-size:.85rem}
+  .badge.b1{left:-8px;bottom:20px}
+  .badge.b2{right:-8px;top:20px}
+  .about-img .sig{right:-6px}
+  .side-offers .offer{flex-direction:column}
+  .side-offers .offer .img{width:100%;aspect-ratio:16/9}
+  .btn-row .btn{width:100%}
+  .callout{grid-template-columns:1fr;gap:10px}
+  .wa-float .tip{display:none}
+}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<!-- Barra superior -->
+<div class="topbar">
+  <a href="https://tengounsueno.es/lista-de-espera-haz-de-la-inversion-tu-habito-rentable/" target="_blank" rel="noopener">Próximo taller <strong>HÁBITOS RENTABLES</strong> el 16 de enero · <u>Reserva tu sitio →</u></a>
+</div>
+
+<!-- Navegación -->
+<nav class="nav" aria-label="Principal">
+  <a class="logo" href="#top">Tengo un <em>Sueño</em></a>
+  <div class="nav-links">
+    <a href="#metodo">Método</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#opiniones">Opiniones</a>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#faq">Dudas</a>
+  </div>
+  <a class="btn btn-primary js-wa" data-msg="Hola María José, he visto tu web y me gustaría hablar contigo sobre mi plan financiero." href="#">Hablemos <span class="arr">→</span></a>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="rv">
+      <span class="eyebrow">Planificación financiera · Coaching · Formación</span>
+      <h1>Tu dinero, por fin,<br><em>al servicio de tus sueños</em></h1>
+      <p class="lead">Te ayudo a ordenar, planificar e invertir tu dinero con un plan hecho a tu medida. Sin jerga, sin presión y sin el eterno <em>«ya lo miraré»</em>.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary js-wa" data-msg="Hola María José, he visto tu web y quiero empezar mi plan financiero. ¿Hablamos?" href="#">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zm8.4-18.2C18.1 1.3 15.2 0 12 0 5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12 0-3.2-1.3-6.2-3.6-8.4z"/></svg>
+          Quiero mi plan financiero
+        </a>
+        <a class="btn btn-ghost" href="#metodo">Ver cómo trabajo ↓</a>
+      </div>
+      <div class="trust">
+        <img src="https://tengounsueno.es/wp-content/uploads/2025/12/Rating-Star-1.svg" alt="5 estrellas">
+        <span><b>245</b> clientes</span><span class="dot"></span>
+        <span><b>10</b> años de experiencia</span><span class="dot"></span>
+        <span>Certificada <b>EFPA</b></span>
+      </div>
+    </div>
+    <div class="hero-media rv">
+      <img class="main" src="https://tengounsueno.es/wp-content/uploads/2025/12/Tengo-un-Sueno-Empoderamiento-Financiero-1.jpg" alt="María José Parra, asesora financiera de Tengo un Sueño">
+      <div class="badge b2"><b>+100</b>personas ya han creado<br>su plan con mi taller</div>
+      <div class="badge b1"><b>135 M€</b>en cartera como<br>consultora de inversión</div>
+    </div>
+  </div>
+</header>
+
+<!-- LOGOS -->
+<div class="logos">
+  <div class="wrap">
+    <p>Mi trayectoria y formación</p>
+    <div class="logos-row">
+      <img src="https://tengounsueno.es/wp-content/uploads/2025/12/Santander.png" alt="Santander">
+      <img src="https://tengounsueno.es/wp-content/uploads/2025/12/Fisher-Investments-1.png" alt="Fisher Investments">
+      <img src="https://tengounsueno.es/wp-content/uploads/2025/12/Mapfre-2.png" alt="Mapfre">
+      <img src="https://tengounsueno.es/wp-content/uploads/2025/12/EFPA.png" alt="EFPA">
+      <img src="https://tengounsueno.es/wp-content/uploads/2025/12/IEB-2.png" alt="Instituto de Estudios Bursátiles">
+      <img src="https://tengounsueno.es/wp-content/uploads/2025/12/Universidad-Madrid.png" alt="Universidad Carlos III de Madrid">
+    </div>
+  </div>
+</div>
+
+<!-- PROBLEMA -->
+<section class="problem">
+  <div class="wrap problem-grid">
+    <div class="rv">
+      <span class="eyebrow">¿Te suena?</span>
+      <h2>No te falta información.<br><em>Te falta un método.</em></h2>
+      <p class="lead">Durante años he visto lo mismo una y otra vez. La mayoría no falla por no saber. Falla por el ruido mental que el dinero activa: miedo, culpa, exceso de prudencia, impulsos…</p>
+      <div class="callout">
+        <div class="num">+33,9 %</div>
+        <p>es lo que subió la cesta de la compra en España entre 2019 y 2024. El dinero que no se planifica no se queda quieto: <strong>se encoge</strong>.</p>
+      </div>
+    </div>
+    <div class="rv">
+      <ul class="quotes">
+        <li>Tengo dinero parado en la cuenta y sé que pierde valor, pero no sé dónde ponerlo.</li>
+        <li>Fondos, ETFs, roboadvisors, planes de pensiones, PIAS… Tanta opción me abruma.</li>
+        <li>Me da tanto miedo equivocarme que al final no hago nada.</li>
+        <li>Gano bien, pero a final de mes no sé muy bien a dónde se va el dinero.</li>
+        <li>Ya lo miraré… (y llevo años diciéndolo).</li>
+      </ul>
+      <p class="turn">La buena noticia: <strong>esto no va de saber más de finanzas.</strong> Va de tener un plan claro, sencillo y tuyo. Y de alguien que te acompañe a cumplirlo.</p>
+      <div class="btn-row" style="margin-top:26px">
+        <a class="btn btn-primary js-wa" data-msg="Hola María José, me he reconocido en lo que cuentas en tu web. Me gustaría contarte mi situación." href="#">Cuéntame tu caso <span class="arr">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MÉTODO -->
+<section class="method" id="metodo">
+  <div class="wrap center">
+    <span class="eyebrow rv">Cómo trabajo</span>
+    <h2 class="rv" style="margin:16px 0 18px">Optimiza, Planifica <em>e Invierte</em></h2>
+    <p class="lead rv">Un método en tres pasos que une educación financiera, psicología del dinero y hábitos. Para que pases a la acción y, sobre todo, para que los resultados se queden.</p>
+    <div class="steps" style="text-align:left">
+      <div class="step rv">
+        <div class="n">01</div>
+        <h3>Optimiza</h3>
+        <p>Ponemos orden en tus ingresos, gastos y ahorro. Descubres a dónde va tu dinero y liberas el que hoy se te escapa sin darte cuenta.</p>
+      </div>
+      <div class="step rv">
+        <div class="n">02</div>
+        <h3>Planifica</h3>
+        <p>¿Jubilación anticipada? ¿Año sabático? ¿Casita en la playa? Ponemos cifras y fechas a tu sueño y trazamos el camino para llegar.</p>
+      </div>
+      <div class="step rv">
+        <div class="n">03</div>
+        <h3>Invierte</h3>
+        <p>Construimos una estrategia de inversión que entiendes y puedes sostener en el tiempo. Tu dinero trabajando a tu favor mientras tú vives.</p>
+      </div>
+    </div>
+    <div class="values rv">
+      <div class="value"><img src="https://tengounsueno.es/wp-content/uploads/2025/12/Confianza-1.svg" alt=""><span><b>Confianza</b> · claridad y rumbo</span></div>
+      <div class="value"><img src="https://tengounsueno.es/wp-content/uploads/2025/12/Motivacion-1.svg" alt=""><span><b>Motivación</b> · del bloqueo a la acción</span></div>
+      <div class="value"><img src="https://tengounsueno.es/wp-content/uploads/2025/12/Sencillez-1.svg" alt=""><span><b>Sencillez</b> · estrategias accionables</span></div>
+      <div class="value"><img src="https://tengounsueno.es/wp-content/uploads/2025/12/Disfrute-1.svg" alt=""><span><b>Disfrute</b> · del proceso y el progreso</span></div>
+      <div class="value"><img src="https://tengounsueno.es/wp-content/uploads/2025/12/Crecimiento-1.svg" alt=""><span><b>Crecimiento</b> · tu dinero a tu favor</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="offers" id="servicios">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow rv">Elige cómo empezar</span>
+      <h2 class="rv">Tres caminos hacia <em>el mismo sueño</em></h2>
+      <p class="lead rv">Según en qué punto estés y cuánto acompañamiento necesites.</p>
+    </div>
+    <div class="offer-grid">
+      <article class="offer featured rv">
+        <div class="img"><img src="https://tengounsueno.es/wp-content/uploads/2025/12/Planificacion-Financiera-1.jpg" alt="Planificación financiera"></div>
+        <div class="body">
+          <span class="tag">El más elegido</span>
+          <h3>Planificación financiera</h3>
+          <p class="for">Para ti si tienes un sueño concreto y quieres un plan con números, plazos y alguien a tu lado para conseguirlo.</p>
+          <ul>
+            <li>Diagnóstico de tu situación financiera actual</li>
+            <li>Tus objetivos convertidos en cifras y fechas</li>
+            <li>Estrategia de inversión adaptada a ti, explicada paso a paso</li>
+            <li>Acompañamiento y seguimiento para que el plan se cumpla</li>
+          </ul>
+          <a class="btn btn-primary js-wa" data-msg="Hola María José, me interesa la planificación financiera. ¿Me cuentas cómo funciona?" href="#">Quiero mi plan financiero <span class="arr">→</span></a>
+        </div>
+      </article>
+      <div class="side-offers">
+        <article class="offer rv">
+          <div class="img"><img src="https://tengounsueno.es/wp-content/uploads/2025/12/CoachingFinanciero.jpg" alt="Coaching financiero"></div>
+          <div class="body">
+            <span class="tag">Proceso individual</span>
+            <h3>Coaching financiero</h3>
+            <p class="for">Un proceso más íntimo y transformador para alinear tu éxito personal, profesional y financiero.</p>
+            <a class="btn btn-soft js-wa" data-msg="Hola María José, me interesa el coaching financiero. ¿Hablamos?" href="#">Quiero saber más →</a>
+          </div>
+        </article>
+        <article class="offer rv">
+          <div class="img"><img src="https://tengounsueno.es/wp-content/uploads/2025/12/Haz-de-la-Inversion-Tu-Habito-Mas-Rentable-2.jpg" alt="Taller Haz de la inversión tu hábito más rentable"></div>
+          <div class="body">
+            <span class="tag">Taller grupal</span>
+            <h3>Hábitos Rentables</h3>
+            <span class="date">📅 Próxima edición: 16 de enero</span>
+            <p class="for">La experiencia formativa con la que más de 100 personas ya han creado su plan y hecho crecer su dinero.</p>
+            <a class="btn btn-soft" href="https://tengounsueno.es/lista-de-espera-haz-de-la-inversion-tu-habito-rentable/" target="_blank" rel="noopener">Reservar mi plaza →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="testi" id="opiniones">
+  <div class="wrap">
+    <div class="testi-head">
+      <div>
+        <span class="eyebrow rv">Opiniones</span>
+        <h2 class="rv" style="margin-top:16px">Lo que cambia cuando <em>tienes un plan</em></h2>
+      </div>
+      <a class="btn btn-primary js-wa rv" data-msg="Hola María José, he leído las opiniones de tus clientas y me gustaría empezar también." href="#">Quiero empezar yo también <span class="arr">→</span></a>
+    </div>
+    <div class="testi-grid">
+      <div class="card rv">
+        <img class="stars" src="https://tengounsueno.es/wp-content/uploads/2025/12/Rating-Star-1.svg" alt="5 estrellas">
+        <blockquote>«Crear mi plan financiero con María José fue clave para <strong>vencer el miedo y el estrés financiero</strong> y lanzarme a emprender mi propia marca de moda. Un año después, no puedo estar más contenta con la decisión. Por primera vez siento que tengo un plan financiero que me impulsa en lugar de limitarme.»</blockquote>
+        <div class="who"><div class="avatar">M</div><div><b>Mónica Hernández</b><span>Head of sales en Lidl y creadora de Monhez</span></div></div>
+      </div>
+      <div class="card rv">
+        <img class="stars" src="https://tengounsueno.es/wp-content/uploads/2025/12/Rating-Star-1.svg" alt="5 estrellas">
+        <blockquote>«Es muy didáctica: <strong>no solo te asesora, también te explica el porqué.</strong> Esa claridad se traduce en confianza. Llevaba mucho tiempo buscando una asesora que me convenciera para mi planificación y mi cartera. Por fin la encontré.»</blockquote>
+        <div class="who"><div class="avatar">L</div><div><b>Lara Urbizu</b><span>Risk Consultant en Marsh McLennan</span></div></div>
+      </div>
+      <div class="card rv">
+        <img class="stars" src="https://tengounsueno.es/wp-content/uploads/2025/12/Rating-Star-1.svg" alt="5 estrellas">
+        <blockquote>«Me encanta sentir que no estoy sola: tengo su apoyo, su seguimiento y <strong>la tranquilidad de saber que mis ahorros están bien gestionados</strong> y generando rentabilidad. Como emprendedora, esa seguridad vale oro.»</blockquote>
+        <div class="who"><div class="avatar">C</div><div><b>Claudia Aguado</b><span>Creadora de Claudia Santagua</span></div></div>
+      </div>
+      <div class="card rv">
+        <img class="stars" src="https://tengounsueno.es/wp-content/uploads/2025/12/Rating-Star-1.svg" alt="5 estrellas">
+        <blockquote>«A pesar de trabajar toda la vida en banca nunca me había preocupado por gestionar mis finanzas. Me di cuenta de que <strong>con pequeños gestos podemos mejorar enormemente nuestra economía</strong>. Desde entonces María José es mi asesora y me siento mucho más segura con las decisiones que tomamos.»</blockquote>
+        <div class="who"><div class="avatar">M</div><div><b>María Peláez</b><span>Directora de personas y talento en Liberbank</span></div></div>
+      </div>
+      <div class="card rv">
+        <img class="stars" src="https://tengounsueno.es/wp-content/uploads/2025/12/Rating-Star-1.svg" alt="5 estrellas">
+        <blockquote>«Se nota que le apasiona enseñar y siempre es supergenerosa a la hora de compartir conocimientos. Dentro del Club de Inversoras, <strong>María José es una de las docentes más queridas</strong> y sus formaciones son las mejor valoradas.»</blockquote>
+        <div class="who"><div class="avatar">M</div><div><b>Mapi Amela</b><span>Fundadora del Club de Inversoras e Instituto de Riqueza</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CIFRAS -->
+<div class="stats">
+  <div class="wrap stats-grid">
+    <div><div class="n"><b class="count" data-to="10">0</b></div><p>años de experiencia</p></div>
+    <div><div class="n"><b class="count" data-to="245">0</b></div><p>clientes</p></div>
+    <div><div class="n"><b class="count" data-to="26">0</b></div><p>experiencias formativas</p></div>
+    <div><div class="n"><b class="count" data-to="160">0</b></div><p>alumnos</p></div>
+  </div>
+</div>
+
+<!-- SOBRE MÍ -->
+<section class="about" id="sobre-mi">
+  <div class="wrap about-grid">
+    <div class="about-img rv">
+      <img src="https://tengounsueno.es/wp-content/uploads/2025/12/MariajoseParra.jpg" alt="María José Parra">
+      <div class="sig">«Lo que no se planifica, <em>no ocurre</em>.»</div>
+    </div>
+    <div class="rv">
+      <span class="eyebrow">Sobre mí</span>
+      <h2>Hola, soy <em>María José</em></h2>
+      <p class="role">Asesora patrimonial, formadora y mentora en finanzas personales e inversión.</p>
+      <p>He pasado años dentro de grandes firmas de gestión patrimonial, acompañando a más de 200 clientes. Y aprendí que la buena gestión financiera no va solo de números y rentabilidades: va de tus prioridades, tus emociones, tu historia y tus sueños.</p>
+      <p style="margin-top:14px">Por eso creé Tengo un Sueño: para que mires tu dinero de frente, con una sonrisa, y pases a la acción.</p>
+      <ul class="creds">
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></span><span><b>Santander</b> · Analista de fondos y carteras de inversión para Banca Privada.</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8M14 7h7v7"/></svg></span><span><b>Fisher Investments</b> · Consultora de inversión con más de 100 clientes y 135 M€ en cartera.</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><span><b>Mapfre</b> · Asesora patrimonial especializada en planificación de la jubilación.</span></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></span><span><b>Certificada por EFPA</b> · Doble grado en ADE y Derecho (UC3M), especialización en mercados financieros (IEB) y experta en coaching.</span></li>
+      </ul>
+      <a class="btn btn-primary js-wa" data-msg="Hola María José, me ha gustado conocer tu historia. Me encantaría contarte la mía y mi sueño." href="#">Hablemos de tu sueño <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO EMPEZAR -->
+<section class="start">
+  <div class="wrap center">
+    <span class="eyebrow rv">Primer paso</span>
+    <h2 class="rv" style="margin-top:16px">Empezar es <em>así de sencillo</em></h2>
+    <div class="start-grid" style="text-align:left">
+      <div class="start-card rv"><div class="k">1</div><h3>Escríbeme</h3><p>Por WhatsApp o email. Cuéntame en dos líneas cuál es tu situación y qué sueño tienes en mente.</p></div>
+      <div class="start-card rv"><div class="k">2</div><h3>Hablamos</h3><p>Una primera conversación, sin compromiso, para entender tu caso y ver si puedo ayudarte.</p></div>
+      <div class="start-card rv"><div class="k">3</div><h3>Tu camino</h3><p>Te propongo la opción que mejor encaja contigo: planificación, coaching o formación. Y empezamos.</p></div>
+    </div>
+    <div class="btn-row rv" style="justify-content:center">
+      <a class="btn btn-primary js-wa" data-msg="Hola María José, quiero dar el primer paso. ¿Cuándo podemos hablar?" href="#">Dar el primer paso <span class="arr">→</span></a>
+      <a class="btn btn-ghost" href="mailto:hola@tengounsueno.es?subject=Quiero%20empezar%20mi%20plan%20financiero">Prefiero escribir un email</a>
+    </div>
+  </div>
+</section>
+
+<!-- LEAD MAGNET -->
+<div class="lm">
+  <div class="wrap">
+    <div class="lm-box rv">
+      <img src="https://tengounsueno.es/wp-content/uploads/2025/12/Club-Habitos-Saludables-LeadMagnet.png" alt="Test gratuito: ¿cómo de rentables son tus hábitos?">
+      <div>
+        <span class="eyebrow">¿Aún no es el momento? Empieza gratis</span>
+        <h2>Del 1 al 5… ¿cómo de <em>rentables</em> son tus hábitos?</h2>
+        <p>Responde 5 preguntas rápidas y recibe tu nivel de rentabilidad, un plan de 3 hábitos para aplicar esta misma semana y acceso gratuito al <strong>Club Hábitos Rentables</strong>.</p>
+        <a class="btn btn-primary" href="https://tengounsueno.es/newsletter" target="_blank" rel="noopener">Hacer el test gratis <span class="arr">→</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<section id="faq" style="padding-top:20px">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Dudas frecuentes</span>
+      <h2 style="margin-top:16px">Antes de <em>escribirme</em></h2>
+    </div>
+    <div class="faq-wrap">
+      <details>
+        <summary>No sé nada de inversión. ¿Esto es para mí?</summary>
+        <p>Sí, precisamente. Mucha gente que trabaja conmigo llevaba años posponiéndolo por no saber por dónde empezar. Te explico el porqué de cada decisión, para que entiendas lo que haces con tu dinero y no dependas de nadie para entenderlo.</p>
+      </details>
+      <details>
+        <summary>Me da miedo equivocarme. ¿Y si pierdo dinero?</summary>
+        <p>Es el bloqueo más habitual, y por eso mi método no se queda en los números: trabajamos también la psicología del dinero. Construimos un plan que entiendes, adaptado a tu perfil y a tus plazos, para que decidas con criterio y no desde el miedo.</p>
+      </details>
+      <details>
+        <summary>¿Qué diferencia hay entre planificación y coaching?</summary>
+        <p>La planificación financiera se centra en tu dinero: tus objetivos, cifras, plazos y estrategia de inversión. El coaching financiero es un proceso más personal, para alinear tus metas vitales, profesionales y financieras. En la primera conversación vemos cuál encaja mejor contigo.</p>
+      </details>
+      <details>
+        <summary>¿Cuánto cuesta?</summary>
+        <p>Depende del tipo de acompañamiento que necesites. Escríbeme, cuéntame tu caso y te explico las opciones con claridad, sin letra pequeña.</p>
+      </details>
+      <details>
+        <summary>¿Cómo empiezo?</summary>
+        <p>Mándame un WhatsApp al +34 614 183 196 o un email a hola@tengounsueno.es. Con dos líneas sobre tu situación es suficiente para empezar a hablar.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="final">
+  <div class="wrap">
+    <h2 class="rv">Toda gran historia empieza<br>con un <em>gran sueño</em>.</h2>
+    <p class="lead rv">¿Cuál es el tuyo? Cuéntamelo y trazamos el plan para conseguirlo.</p>
+    <div class="btn-row rv">
+      <a class="btn btn-soft js-wa" data-msg="Hola María José, mi sueño es… ¿Me ayudas a planificarlo?" href="#">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zm8.4-18.2C18.1 1.3 15.2 0 12 0 5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12 0-3.2-1.3-6.2-3.6-8.4z"/></svg>
+        Escríbeme por WhatsApp
+      </a>
+      <a class="btn btn-ghost" href="mailto:hola@tengounsueno.es?subject=Mi%20sue%C3%B1o">hola@tengounsueno.es</a>
+      <a class="btn btn-ghost" href="tel:+34614183196">Llamar: 614 183 196</a>
+    </div>
+    <p class="micro rv">Respondo personalmente a cada mensaje.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="#top">Tengo un <em>Sueño</em></a>
+        <p class="tag">Acompañamiento financiero para convertir grandes sueños en realidad.</p>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="mailto:hola@tengounsueno.es">hola@tengounsueno.es</a></li>
+          <li><a href="tel:+34614183196">+34 614 183 196</a></li>
+          <li><a href="https://www.linkedin.com/in/mariajoseparrap/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="https://tengounsueno.es/politica-de-privacidad/" target="_blank" rel="noopener">Política de privacidad</a></li>
+          <li><a href="https://tengounsueno.es/aviso-legal/" target="_blank" rel="noopener">Aviso legal</a></li>
+          <li><a href="https://tengounsueno.es/politica-de-cookies/" target="_blank" rel="noopener">Política de cookies</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy"><span>© Tengo un Sueño · María José Parra</span><span>Invertir conlleva riesgos. Rentabilidades pasadas no garantizan rentabilidades futuras.</span></div>
+  </div>
+</footer>
+
+<!-- WhatsApp flotante -->
+<a class="wa-float js-wa" data-msg="Hola María José, he visto tu web y me gustaría hablar contigo." href="#" aria-label="Escríbeme por WhatsApp">
+  <span class="tip">¿Hablamos por WhatsApp?</span>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zm8.4-18.2C18.1 1.3 15.2 0 12 0 5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12 0-3.2-1.3-6.2-3.6-8.4z"/></svg>
+</a>
+
+<script>
+// Enlaces de WhatsApp con mensaje precargado según el CTA
+document.querySelectorAll('.js-wa').forEach(a=>{
+  a.href='https://wa.me/34614183196?text='+encodeURIComponent(a.dataset.msg||'Hola María José');
+  a.target='_blank'; a.rel='noopener';
+});
+// Aparición suave al hacer scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+// Contadores
+const co=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target,to=+el.dataset.to,t0=performance.now(),d=1400;
+  (function f(t){const p=Math.min((t-t0)/d,1);el.textContent=Math.round(to*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(t0);co.unobserve(el)}),{threshold:.5});
+document.querySelectorAll('.count').forEach(el=>co.observe(el));
+</script>
+</body>
+</html>
